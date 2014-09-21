@@ -3,10 +3,17 @@
 * Copyright 2012, Kimmy | wwww.zerotheme.com
 */
 
+
+/*--------------Table of Contents
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+*/
 /*--------------Base 960 Grid*/
 
-    .zerogrid                                  { position: relative; width: 1300px; margin: 0 auto; padding: 0;}
-    .zerogrid .row                             {position: relative; margin-left: 180px; margin-top: 20px;}
+    .zerogrid                                  { position: relative; width: 1000px; margin: 0 auto; padding: 0;}
+    .zerogrid .row                             { margin-bottom: 10px;}
 	
 	.zerogrid .offleft					   	   { margin-left: 0px!important;}
 	.zerogrid .offright					       { margin-right: 0px!important;}
@@ -188,8 +195,6 @@
         .zerogrid .col-1-3,
         .zerogrid .col-2-3 { width: 420px; }
     }
-
-    .col04 p { text-align: justify;}
 	
 
 /* #Clearing

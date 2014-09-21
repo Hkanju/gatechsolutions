@@ -8,9 +8,9 @@
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>GATech_solution</title>
-	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
-	<meta name="kanju" content="www.gatech_solutions.com">
+	<title>GA Tech Solutions</title>
+	<meta name="description" content="designed by kanju">
+	<meta name="author" content="www.zerotheme.com">
 	
     <!-- Mobile Specific Metas
   ================================================== -->
@@ -45,9 +45,8 @@
         auto: true,
         pager: false,
         nav: true,
-        h2: true;
         speed: 500,
-        maxwidth: 1600,
+        maxwidth: 1000,
         namespace: "centered-btns"
       });
     });
@@ -56,30 +55,40 @@
 </head>
 <body>
 <!--------------Header--------------->
-
 <header> 
 	<div id="logo"><a href=""><img src="./images/logo.png"/></a></div>
-	
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="contacts.html">Contact</a></li>
-		</ul>
-	</nav>
+	<div id="search">
+		<div class="button-search"></div>
+		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+	</div>
 </header>
 
+<!--------------Navigation--------------->
 
-<!--------------Slideshow--------------->
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="contacts.html">Contact</a></li>
+	</ul>
+</nav>
 
-		
+
+			
 <!--------------Content--------------->
 <section id="content">
 	<div class="zerogrid block">		
 		<div class="row block01">
+		<div class="row block04">
+			<div class="col16">
+				<section>
+					<!--<p><a href="index.html">Home</a> >> contacts</p> -->
+				</section>
+			</div>
+		</div>
 			<div class="col04">
 				<section>
 					<div class="heading">
@@ -187,9 +196,30 @@
 </section>
 <!--------------Footer--------------->
 <footer>
-	<div class="wrapfooter">
-	<p>Copyright © 2014  GA -All Right reserved-TechSolution Limited</p>
+	<div class="zerogrid">
+	<!--	<div class="row wrapper">
+			<section class="col-2-3">
+				<div class="heading">About us</div>
+				<div class="content">
+					Free Basic Html5 Templates created by <a href="http://www.zerotheme.com">Zerotheme</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.
+				</div>
+			</section>
+			<section class="col-1-3">
+				<div class="heading">Bookmark it !</div>
+				<div class="content">
+					<img src="images/icon1.gif" />
+					<img src="images/icon2.gif" />
+					<img src="images/icon3.gif" />
+					<img src="images/icon4.gif" />
+					<img src="images/icon5.gif" />
+				</div>
+			</section>
+		</div> -->
 	</div>
+	
+<div id="copyright">
+	<p>Copyright © 2012 - GA-Tech Solutions</p>
+</div>
 </footer>
 
 </body></html>

@@ -7,7 +7,6 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  
   }
 
 .rslides li {
@@ -17,7 +16,6 @@
   left: 0;
   top: 0;
   }
-
 
 .rslides li:first-child {
   position: relative;
@@ -39,7 +37,7 @@
 
 .rslides_container {
   
-  position: relative; 
+  position: relative;
   }
 
 .centered-btns_nav {
@@ -68,7 +66,7 @@
   }
 
 .transparent-btns_nav {
-  position: relative;
+  position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   top: 0;
   left: 0;
@@ -159,3 +157,9 @@
   background: #222;
   background: rgba(0,0,0, .8);
   }
+.flex-caption { background:#797A7A; margin-left:40px;bottom:40px; position:absolute;padding:20px; z-index:99; height:200px; width:250px; text-align:justify}
+.flex-caption p{ font-size: 14px !important; line-height: 22px; 
+font-weight:300; color: #fff }
+.flex-caption h2, .flex-caption h4 {
+	color:#fff; font-size: 20px !important; text-align:center;
+}

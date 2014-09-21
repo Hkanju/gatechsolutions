@@ -8,9 +8,9 @@
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>GATech_solution</title>
-	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
-	<meta name="kanju" content="www.gatech_solutions.com">
+	<title>GA Tech Solutions</title>
+	<meta name="description" content="designed by kanju">
+	<meta name="author" content="www.zerotheme.com">
 	
     <!-- Mobile Specific Metas
   ================================================== -->
@@ -37,6 +37,9 @@
 	
 	<link href='./images/GA.png' rel='icon' type='image/x-icon'/>
 	
+		<script src="js/jquery.js"></script>
+			<script src="js/menujs"></script>
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/responsiveslides.js"></script>
 	<script>
@@ -45,164 +48,199 @@
         auto: true,
         pager: false,
         nav: true,
-        h2: true;
         speed: 500,
-        maxwidth: 100%,
+       // maxwidth: 1000,
         namespace: "centered-btns"
       });
     });
+	
   </script>
     
 </head>
 <body>
 <!--------------Header--------------->
-
 <header> 
 	<div id="logo"><a href=""><img src="./images/logo.png"/></a></div>
-	
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="contacts.html">Contact</a></li>
-		</ul>
-	</nav>
+	<div id="search">
+		<div class="button-search"></div>
+		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+	</div>
 </header>
-<!--
-<div class="social">
-		<div class="shareicons">
-			<ul>
-				<li><a href="#"><img src="images/Active-RSS-icon.png" title="RSS"/></a></li>
-				<li><a href="#"><img src="images/Active-Digg-icon.png" title="Digg"/></a></li>
-				<li><a href="#"><img src="images/Active-Facebook-icon.png" title="Facebook"/></a></li>
-				<li><a href="#"><img src="images/Active-Google-plus-icon.png" title="Google+"/></a></li>
-				<li><a href="#"><img src="images/Active-Twitter-icon.png" title="Twitter"/></a></li>
-				<li><a href="#"><img src="images/Active-Tumblr-icon.png" title="Tumblr"/></a></li>
-				<li><a href="#"><img src="images/Active-StumbleUpon-icon.png" title="Stumb"/></a></li>
-				<li><a href="#"><img src="images/Active-Pinterest-icon.png" title="Pinterest"/></a></li>
-			</ul>
-		</div>
 
-		
-		<div id="search">
-			<div class="button-search"></div>
-			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
-		</div>
+<!--------------Navigation--------------->
 
-</div>
--->
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a>
+		<ul>
+		<li>test1</li>
+		<li>test2</li>
+		</ul>
+		</li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="contacts.html">Contact</a></li>
+	</ul>
+</nav>
 
 <!--------------Slideshow--------------->
 
 <section class="featured">
 	<div class="rslides_container">
 		<ul class="rslides" id="slider">
-			<li ><img src="images/sl1.jpg"/></li>
-			<li><img src="images/slide2.jpg"/></li>
-			<li><img src="images/slide3.jpg"/></li>
+			<li><img src="images/slide1.png"/>
+			<div class="flex-caption">
+                    <h4>Video Conference</h4> 
+					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p> 
+					<p class="more"><a class="button" href="single.html">Read more</a></p>
+                </div>
+			</li>
+			<li><img src="images/slide2.png"/>
+			<div class="flex-caption">
+                    <h4>Project Management</h4> 
+					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  
+					<p class="more"><a class="button" href="single.html">Read more</a></p>
+                </div>
+			</li>
+			<li><img src="images/slide3.png"/>
+			<div class="flex-caption">
+                    <h4>VOIP</h4> 
+					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  
+					<p class="more"><a class="button" href="single.html">Read more</a></p>
+                </div>
+			</li>
+			<li><img src="images/slide4.png"/>
+			<div class="flex-caption">
+                    <h4>IP PBX</h4> 
+					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  
+					<p class="more"><a class="button" href="single.html">Read more</a></p>
+                </div>
+			</li>
 		</ul>
 	</div>
-	<table style="width:100%; background-color:#a49a00; align:center; position:relative;" ><tbody><td><h2 >&nbsp</h2></td></tbody></table>
 </section>
-
-
 			
 <!--------------Content--------------->
 <section id="content">
-	<div class="zerogrid block">		
-		<div class="row block01">
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/consultance.png"/>
-						<h2>ICT Consultance</h2>
+	<div class="zerogrid">
+		<div class="row">
+			<div class="main-content">
+				<div class="row">
+					<div class="col-1-3">
+						<section>
+							<div class="heading">
+								<h2><a href="blog.html">Project Management</a></h2>
+							</div>
+							<div class="content">
+								<img src="images/icon1.jpg"/>
+								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting..</p>
+								<p class="more"><a class="button" href="single.html">Read more</a></p>
+							</div>
+						</section>
 					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="single.html">Read more</a></p>
+					<div class="col-1-3">
+						<section>
+							<div class="heading">
+								<h2><a href="blog.html">ICT Consultance</a></h2>
+							</div>
+							<div class="content">
+								<img src="images/icon2.jpg"/>
+								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
+								<p class="more"><a class="button" href="single.html">Read more</a></p>
+							</div>
+						</section>
 					</div>
-				</section>
-			</div>
-			<div class="col04" style="border:3px solid:#a49a00;">
-				<section>
-					<div class="heading">
-						<img src="images/projects.png"/>
-						<h2>Project Management</h2>
+					<div class="col-1-3">
+						<section>
+							<div class="heading">
+								<h2><a href="blog.html">ICT Trainings</a></h2>
+							</div>
+							<div class="content">
+								<img src="images/icon3.jpg"/>
+								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
+								<p class="more"><a class="button" href="single.html">Read more</a></p>
+							</div>
+						</section>
 					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="single.html">Read more</a></p>
+				</div>
+				
+				<div class="row">
+					<div class="col-2-3">
+						<article>
+							<div class="heading">
+								<h2><a href="blog.html">Welcome to GA-Tech Solutiions</a></h2>
+							</div>
+							<div class="content">
+								<p>GA Tech welcomes you for cooperation on its services.</p>
+								<p>GA TECHSOLUTIONS LIMITED is an ICT Company that deals with business of information technology project
+                        management, system analysis and design, training service such as
+                        virtual training, professional course, basic course (short and long
+						term) institute of technology, consultancy, research, CCTV camera
+						installation, voice mail, WEBSITE, IT accessories and electronics
+						installation fencing, alarm industries network, hardware solution,
+						biometric</p>
+							</div>
+						</article>
 					</div>
-				</section>
-			</div>
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/video.png"/>
-						<h2>Video Conference</h2>
-					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design.Please keep on waiting</p>
-						<p class="more"><a class="button" href="single.html">Read more</a></p>
-					</div>
-				</section>
-			</div>
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/training.png"/>
-						<h2>ICT Training</h2>
-					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="single.html">Read more</a></p>
-					</div>
-				</section>
-			</div>
-		</div>
-		
-	
-		<div class="row block03">
-			<table style=" width:85%; background-color:#a49a00; align:center; color:#fff;" ><tbody><td><h2 >Working With</h2></td></tbody></table>
+					<div class="sidebar col-1-3">
+						<section class="">
+							<div class="heading">Working With..</div>
+							<div class="content">
+								<div class="rslides_container">
+								
+								<script src="js/clients.js"></script>
+								<script type="text/javascript">
 
-			<div class="col-1-3">
-				<section>
-					
-					<div class="content">
-						<img src="images/thumb2.jpg" />
-						
+//Define Image Array. Syntax: ["image_path", "url_destination", "url_target"]
+var myimages=new Array()
+myimages[0]=["images/img1.jpg", "", ""]
+myimages[1]=["images/img2.jpg", "http://www.dynamicdrive.com", ""]
+myimages[2]=["images/img3.jpg", "http://www.javascriptkit.com", "_new"]
+
+//Create new drop-in slideshow
+//Syntax: new dropinslideshow(image_array, slideshow_width, slideshow_height, delay_before_rotation)
+new dropinslideshow(myimages, 300, 150, 3000)
+
+</script>
+			
+		
+	                </div>
+							</div>
+						</section>
 					</div>
-				</section>
-			</div>
-			<div class="col-1-3">
-				<section>
-					
-					<div class="content">
-						<img src="images/thumb2.jpg" />
-						
-					</div>
-				</section>
-			</div>
-			<div class="col-1-3">
-				<section>
-					
-					<div class="content">
-						<img src="images/thumb2.jpg" />
-						
-					</div>
-				</section>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <!--------------Footer--------------->
 <footer>
-	<div class="wrapfooter">
-	<p>Copyright © 2014 -All Right reserved-GA TechSolution Limited</p>
-	</div>
+	<div class="zerogrid"></div>
+	<!--	<div class="row wrapper">
+			<section class="col-2-3">
+				<div class="heading">About us</div>
+				<div class="content">
+					Free Basic Html5 Templates created by <a href="http://www.zerotheme.com">Zerotheme</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.
+				</div>
+			</section>
+			<section class="col-1-3">
+				<div class="heading">Bookmark it !</div>
+				<div class="content">
+					<img src="images/icon1.gif" />
+					<img src="images/icon2.gif" />
+					<img src="images/icon3.gif" />
+					<img src="images/icon4.gif" />
+					<img src="images/icon5.gif" />
+				</div>
+			</section>
+		</div> -->
+
+	
+	<div id="copyright">
+	<p>Copyright © 2012 - GA-Tech Solutions</p>
+</div>
 </footer>
 
 </body></html>
