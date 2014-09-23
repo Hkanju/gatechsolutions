@@ -1,0 +1,102 @@
+#nav,#nav ul {list-style: none;margin: 0;padding: 0 5px; z-index: 999 }
+
+#nav {
+       width:1000px;height: 43px;margin: 0 auto 15px auto;background:#a49a00; border:1px solid #FFF;-webkit-border-radius: 5px;-moz-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;
+       font-size: 15px;
+       font-weight: bold;
+    /* border radius */
+  
+
+    /* box shadow */
+    
+    /* gradient */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a49a00), color-stop(0.5, #a49a00), color-stop(0.51, #a49a00), color-stop(1, #a49a00));
+    background-image: -moz-linear-gradient(center bottom, #a49a00 0%, #a49a00 50%, #a49a00 51%, #a49a00 100%);
+    background-color: #5f5f5f;
+}
+#nav li {
+    padding: 5px;
+    display: block;
+    float: left;
+    height: 34px;
+    position: relative;
+    width: 105px;
+}
+
+#nav li ul {
+   display: none; 
+   width: auto; /* Width to help Opera out */
+   background:#a49a00; }
+   
+
+#nav li a {
+    color: #FFFFFF;
+    display: block;
+    line-height: 34px;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+
+    /* gradient */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a49a00), color-stop(0.5, #a49a00), color-stop(0.51, #a49a00), color-stop(1, #a49a00));
+    background-image: -moz-linear-gradient(center bottom, #a49a00 0%, #a49a00 50%, #a49a00 51%, #a49a00 100%);
+    background-color: #5f5f5f;
+}
+nav li ul   a{text-align:left;}
+
+/* keyframes #animation */
+@-webkit-keyframes animation {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+}
+@-moz-keyframes animation {
+    0% {
+        -moz-transform: scale(1);
+    }
+    30% {
+        -moz-transform: scale(1.2);
+    }
+    100% {
+        -moz-transform: scale(1.1);
+    }
+}
+#nav li  a:hover {
+    color:#000;
+    background: url('../images/menu-bg-act.jpg') repeat-x;
+    /* CSS3 animation */
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: animation;
+    -moz-animation-duration: 0.3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+}
+#nav li:hover ul {
+    left: 0;
+    
+}
+#nav li:hover ul, #nav li.hover ul {
+   display: block;
+   position: absolute;
+   margin: 0;
+   padding: 0; }
+#nav li:hover li, #nav li.hover li {
+   float: none; }

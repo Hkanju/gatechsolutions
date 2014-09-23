@@ -35,13 +35,13 @@ header #search {position: absolute;top: 70px;right: 50px;	width: 258px;z-index: 
 header .button-search {	position: absolute;	left: 0px;	background: url('../images/button-search.png') center center no-repeat;	width: 28px;	height: 24px;	border-right: 1px solid #CCCCCC;	cursor: pointer;}
 header #search input {	background: #FFF;	padding: 1px 1px 1px 33px;	width: 222px;	height: 21px;	border: 1px solid #CCCCCC;	-webkit-border-radius: 3px 3px 3px 3px;	-moz-border-radius: 3px 3px 3px 3px;	-khtml-border-radius: 3px 3px 3px 3px;	border-radius: 3px 3px 3px 3px;}
 
-/*------------menu */
+/*------------menu 
 nav {width:1000px;height: 43px;margin: 0 auto 15px auto;background:#a49a00; border:1px solid #FFF;-webkit-border-radius: 5px;-moz-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;}
 nav ul {list-style: none;margin: 0;padding: 0 5px;}
 nav ul li {position: relative;float: left;padding: 5px;}
 nav ul li:hover {background: url('../images/menu-bg-act.jpg') repeat-x;}
 nav ul li a {font-size: 15px; color: #ffffff;display: block;padding: 6px 10px 6px 10px;margin-bottom: 5px;z-index: 6;position: relative;font-weight:bold; text-transform:uppercase;}
-nav ul li:hover a{color:#000;}
+nav ul li:hover a{color:#000;}   */
 
 .featured{width:1000px; margin:0 auto;}
 /*-------------content */

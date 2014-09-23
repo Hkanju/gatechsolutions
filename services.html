@@ -20,6 +20,7 @@
   ================================================== -->
 	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/responsiveslides.css" />
 	
@@ -37,6 +38,9 @@
 	
 	<link href='./images/GA.png' rel='icon' type='image/x-icon'/>
 	
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/responsiveslides.js"></script>
 	<script>
@@ -46,10 +50,11 @@
         pager: false,
         nav: true,
         speed: 500,
-        maxwidth: 1000,
+       // maxwidth: 1000,
         namespace: "centered-btns"
       });
     });
+	
   </script>
     
 </head>
@@ -66,10 +71,15 @@
 <!--------------Navigation--------------->
 
 <nav>
-	<ul>
+	<ul id="nav">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="about.html">About Us</a></li>
-		<li><a href="services.html">Services</a></li>
+		<li><a href="services.html">Services</a>
+				<ul>
+					<li><a href="#">Short Courses</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+		</li>
 		<li><a href="products.html">Products</a></li>
 		<li><a href="blog.html">Blog</a></li>
 		<li><a href="contacts.html">Contact</a></li>

@@ -8,8 +8,8 @@
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>zCumbeton Free Html5 Responsive Template</title>
-	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
+	<title>GA Tech Solutions</title>
+	<meta name="description" content="designed by kanju">
 	<meta name="author" content="www.zerotheme.com">
 	
     <!-- Mobile Specific Metas
@@ -20,6 +20,7 @@
   ================================================== -->
 	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/responsiveslides.css" />
 	
@@ -35,7 +36,10 @@
 		<script src="js/css3-mediaqueries.js"></script>
 	<![endif]-->
 	
-	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+	<link href='./images/GA.png' rel='icon' type='image/x-icon'/>
+	
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/responsiveslides.js"></script>
@@ -46,10 +50,11 @@
         pager: false,
         nav: true,
         speed: 500,
-        maxwidth: 962,
+       // maxwidth: 1000,
         namespace: "centered-btns"
       });
     });
+	
   </script>
     
 </head>
@@ -57,17 +62,30 @@
 <!--------------Header--------------->
 <header> 
 	<div id="logo"><a href=""><img src="./images/logo.png"/></a></div>
-	
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="single">About</a></li>
-			<li><a href="gallery.html">Services</a></li>
-			<li><a href="single.html">Products</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="single.html">Contact</a></li>
-		</ul>
-	</nav>
+	<div id="search">
+		<div class="button-search"></div>
+		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+	</div>
+</header>
+
+<!--------------Navigation--------------->
+
+<nav>
+	<ul id="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="services.html">Services</a>
+				<ul>
+					<li><a href="#">Short Courses</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+		</li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="contacts.html">Contact</a></li>
+	</ul>
+</nav>
+
 </header>
 
 			
