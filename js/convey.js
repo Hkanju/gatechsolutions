@@ -17,10 +17,10 @@ slidebgcolor="#EAEAEA"
 //Specify the slider's images
 var leftrightslide=new Array()
 var finalslide=''
-leftrightslide[0]='<a href="http://"><img src="images/img.jpg" border=1></a>'
-leftrightslide[1]='<a href="http://"><img src="images/img1.jpg" border=1></a>'
-leftrightslide[2]='<a href="http://"><img src="images/img2.jpg" border=1></a>'
-leftrightslide[3]='<a href="http://"><img src="images/img3.jpg" border=1></a>'
+leftrightslide[0]='<a href="http://"><img src="images/servz/img.jpg" border=1></a>'
+leftrightslide[1]='<a href="http://"><img src="images/servz/img1.jpg" border=1></a>'
+leftrightslide[2]='<a href="http://"><img src="images/servz/img2.jpg" border=1></a>'
+leftrightslide[3]='<a href="http://"><img src="images/servz/img3.jpg" border=1></a>'
 
 
 //Specify gap between each image (use HTML):

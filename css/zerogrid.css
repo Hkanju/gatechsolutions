@@ -46,6 +46,8 @@
 	
     .zerogrid .col-1-3                  { width: 300px; }
     .zerogrid .col-2-3                  { width: 620px; }
+	.zerogrid .servz                  { width: auto; }
+	.zerogrid .servz  p img        { float:left}
 
     /* Offsets */
     .zerogrid .offset01                   { margin-left: 60px;  }
