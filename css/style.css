@@ -68,6 +68,7 @@ nav ul li:hover a{color:#000;}   */
 .block04 {background:#EDEDED; margin-bottom:20px;border-top:1px solid #a49a00;border-bottom:1px solid #a49a00;}
 .block04 section{text-align:left; padding: 5px 10px; font-size:20px;}
 .block04 section img{margin-left:0px:}
+.block04 section p .convey { width: 220px; float:left; position:absolute; width:auto;}
 
 .block05 {}
 
@@ -84,7 +85,7 @@ nav ul li:hover a{color:#000;}   */
 .main-content .content img{float:left; margin:5px; padding:5px; border:1px solid #999;}
 .main-content p{margin: 5px 0;}
 .main-content .footer{}
-.main-content .footer .more{float:right;}
+.main-content .footer .more{float:left;}
 .main-content .footer .more a{ text-decoration:none; text-transform:uppercase;}
 
 .sidebar .heading{font-size:22px; font-weight:normal; padding: 10px ; color:#8064A2;}
