@@ -70,7 +70,9 @@ nav ul li:hover a{color:#000;}   */
 .block04 section img{margin-left:0px:}
 .block04 section p .convey { width: 220px; float:left; position:absolute; width:auto;}
 
-.block05 {}
+.block05 p {font-weight:normal; font-size:18px; font-family:aerila;}
+.block05 p h1{}
+
 
 .block06 {}
 .block06 img{width:200px; padding:5px; border:1px solid #ccc;}
