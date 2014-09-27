@@ -41,7 +41,7 @@
     .zerogrid .col13                    { width: 760px; }
     .zerogrid .col14                    { width: 820px; }
     .zerogrid .col15                    { width: 880px; }
-    .zerogrid .col16                    { width: 940px; }
+    .zerogrid .col16                    { width: auto; }
 	.zerogrid .col04_new                    { width: 220px; float:left; position:relative; width:auto;}
 	
 	
