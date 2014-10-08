@@ -157,7 +157,7 @@
   background: #222;
   background: rgba(0,0,0, .8);
   }
-.flex-caption { background:#969695; margin-left:40px;bottom:40px; position:absolute;padding:20px; z-index:999; height:300px; width:350px; text-align:justify}
+.flex-caption { background:#969695; margin-left:40px;bottom:40px; position:absolute;padding:20px; z-index:999; height:300px; width:350px; text-align:justify;}
 .flex-caption p{ font-size: 25px !important; line-height: 22px; 
 font-weight:300; color: #fff }
 .flex-caption h2, .flex-caption h4 {
