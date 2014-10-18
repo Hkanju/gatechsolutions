@@ -109,14 +109,24 @@
 			</div>
 		</div>
 				<div class="comment">
-					Your email address will not be published. Required fields are marked *
+					 <label class="required">Your email address will not be published. Required fields are marked </label><br />
+					
 					<form action="contacts.php" onsubmit="return validate()">
-						<div><input type="text" name="name" id="name"> Name *</div>
-						<div><input type="email" name="email" id="email"> Email *</div>
-						<div><input type="url" name="website" id="website"> Website</div>
-						<div><h2></h2></div>
-						<div><textarea rows="10" name="comment" id="comment" placeholder="Your message here." onfocus='this.select()'></textarea></div>
+						 <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  				<div class="row">
+						<div><textarea rows="10" name="comment" id="comment" placeholder="Your message here." onfocus='this.select()'></textarea></div> 
+						 </div>
 						<div><input type="submit" name="submit" value="Submit" style="background:#a49a00; color:#ff;"></div>
+						
 					</form>
 				</div>
 			</div>
