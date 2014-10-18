@@ -65,7 +65,7 @@
 <body>
 <!--------------Header--------------->
 <header> 
-	<div id="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+	<div id="logo"><a href="index.php"><img src="images/logo.png"/></a></div>
 	<div id="search">
 		<div class="button-search"></div>
 		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
@@ -76,24 +76,24 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="services.html">Services</a>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about.php">About Us</a></li>
+		<li><a href="services.php">Services</a>
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="blog.html">Blog</a></li>
-		<li><a href="contacts.html">Contact</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="blog.php">Blog</a></li>
+		<li><a href="contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
 <!--------------Slideshow--------------->
 <section class="featured">
  <script>
-        //Reference http://www.jssor.com/development/tip-make-responsive-slider.html
+        //Reference http://www.jssor.com/development/tip-make-responsive-slider.php
 
         var _CaptionTransitions = [];
         _CaptionTransitions["CLIP|L"] = { $Duration: 600, $Clip: 1, $Easing: $JssorEasing$.$EaseInOutCubic };
@@ -103,7 +103,7 @@
     </script> 
     <script>
         jQuery(document).ready(function ($) {
-            //Reference http://www.jssor.com/development/tip-make-responsive-slider.html
+            //Reference http://www.jssor.com/development/tip-make-responsive-slider.php
 
             var _CaptionTransitions = [];
             _CaptionTransitions["CLIP|L"] = { $Duration: 600, $Clip: 1, $Easing: $JssorEasing$.$EaseInOutCubic };
@@ -196,7 +196,7 @@
                     <div class="flex-caption">
                     <h4>Video Conference</h4> </br>
 					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p> </br>
-					<p class="more"><a class="button" href="services/video.html">Read more</a></p>
+					<p class="more"><a class="button" href="services/video.php">Read more</a></p>
                 </div>
                 </div>
                 <div><img u="image" src="images/slides/slide2.png" />
@@ -206,7 +206,7 @@
 					<div class="flex-caption">
                     <h4>Project Management</h4> </br>
 					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  </br>
-					<p class="more"><a class="button" href="services/proj_management.html">Read more</a></p></br>
+					<p class="more"><a class="button" href="services/proj_management.php">Read more</a></p></br>
                 </div>
 				</div>
                 <div><img u="image" src="images/slides/slide3.png" />
@@ -216,7 +216,7 @@
 					<div class="flex-caption">
                     <h4>VOIP</h4> </br>
 					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  </br>
-					<p class="more"><a class="button" href="services/voice.html">Read more</a></p></br>
+					<p class="more"><a class="button" href="services/voice.php">Read more</a></p></br>
                 </div>
 				</div>
                 <div><img u="image" src="images/slides/slide4.png" />
@@ -253,9 +253,9 @@
 								<h2><a href="#">Project Management</a></h2>
 							</div>
 							<div class="content">
-								<a href="services/proj_management.html"><img src="images/icons/icon1.jpg"/></a>
+								<a href="services/proj_management.php"><img src="images/icons/icon1.jpg"/></a>
 								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting..</p>
-								<p class="more"><a class="button" href="services/proj_management.html">Read more</a></p>
+								<p class="more"><a class="button" href="services/proj_management.php">Read more</a></p>
 							</div>
 						</section>
 					</div>
@@ -265,9 +265,9 @@
 								<h2><a href="#">ICT Consultance</a></h2>
 							</div>
 							<div class="content">
-								<a href="services/consultance.html"><img src="images/icons/icon2.jpg"/></a>
+								<a href="services/consultance.php"><img src="images/icons/icon2.jpg"/></a>
 								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-								<p class="more"><a class="button" href="services/consultance.html">Read more</a></p>
+								<p class="more"><a class="button" href="services/consultance.php">Read more</a></p>
 							</div>
 						</section>
 					</div>
@@ -277,9 +277,9 @@
 								<h2><a href="#">ICT Trainings</a></h2>
 							</div>
 							<div class="content">
-								<a href="services/training.html"><img src="images/icons/icon3.jpg"/></a>
+								<a href="services/training.php"><img src="images/icons/icon3.jpg"/></a>
 								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-								<p class="more"><a class="button" href="services/training.html">Read more</a></p>
+								<p class="more"><a class="button" href="services/training.php">Read more</a></p>
 							</div>
 						</section>
 					</div>
@@ -289,7 +289,7 @@
 					<div class="col-2-3">
 						<article>
 							<div class="heading">
-								<h2><a href="about.html">Welcome to GA-Tech Solutiions</a></h2>
+								<h2><a href="about.php">Welcome to GA-Tech Solutiions</a></h2>
 							</div>
 							<div class="content">
 								<p>GA Tech welcomes you for cooperation on its services.</p>

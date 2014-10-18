@@ -72,17 +72,17 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="services.html">Services</a>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about.php">About Us</a></li>
+		<li><a href="services.php">Services</a>
 				<ul>
 					<li><a href="#">Short Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="blog.html">Blog</a></li>
-		<li><a href="contacts.html">Contact</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="blog.php">Blog</a></li>
+		<li><a href="contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
@@ -160,7 +160,7 @@
 <!--------------Footer--------------->
 <footer>
 	<div class="wrapfooter">
-	<p>Copyright © 2014 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Free Responsive Html5 Templates</a> by <a href="http://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
+	<p>Copyright © 2014 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.php" target="_blank">Free Responsive Html5 Templates</a> by <a href="http://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
 	</div>
 </footer>
 

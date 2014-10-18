@@ -61,7 +61,7 @@
 <body>
 <!--------------Header--------------->
 <header> 
-	<div id="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+	<div id="logo"><a href="index.php"><img src="images/logo.png"/></a></div>
 	<div id="search">
 		<div class="button-search"></div>
 		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
@@ -72,17 +72,17 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="services.html">Services</a>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about.php">About Us</a></li>
+		<li><a href="services.php">Services</a>
 				<ul>
 					<li><a href="#">Short Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="blog.html">Blog</a></li>
-		<li><a href="contacts.html">Contact</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="blog.php">Blog</a></li>
+		<li><a href="contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
@@ -104,7 +104,7 @@
 			<div id="main-content" class="col-2-3">
 				<article>
 					<div class="heading">
-						<h2><a href="single.html">This is a heading</a></h2>
+						<h2><a href="single.php">This is a heading</a></h2>
 						<div class="info">Ported by Admin | 2 Comments | November 11 , 2012</div>
 					</div>
 					<div class="content">
@@ -148,17 +148,17 @@
 					<div class="content">
 						<div class="post">
 							<img src="images/thumb1.png"/>
-							<h4><a href="single.html">Lorem ipsum dolor sit amet</a></h4>
+							<h4><a href="single.php">Lorem ipsum dolor sit amet</a></h4>
 							<p>November 11 ,2012</p>
 						</div>
 						<div class="post">
 							<img src="images/thumb2.png"/>
-							<h4><a href="single.html">Aliquam viverra convallis</a></h4>
+							<h4><a href="single.php">Aliquam viverra convallis</a></h4>
 							<p>November 11 ,2012</p>
 						</div>
 						<div class="post">
 							<img src="images/thumb3.png"/>
-							<h4><a href="single.html">TSed accumsan libero</a></h4>
+							<h4><a href="single.php">TSed accumsan libero</a></h4>
 							<p>November 11 ,2012</p>
 						</div>
 					</div>
@@ -170,7 +170,7 @@
 <!--------------Footer--------------->
 <footer>
 	<div class="wrapfooter">
-	<p>Copyright © 2012 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Free Responsive Html5 Templates</a> by <a href="http://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
+	<p>Copyright © 2012 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.php" target="_blank">Free Responsive Html5 Templates</a> by <a href="http://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
 	</div>
 </footer>
 

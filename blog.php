@@ -72,17 +72,17 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="services.html">Services</a>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about.php">About Us</a></li>
+		<li><a href="services.php">Services</a>
 				<ul>
 					<li><a href="#">Short Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="blog.html">Blog</a></li>
-		<li><a href="contacts.html">Contact</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="blog.php">Blog</a></li>
+		<li><a href="contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
@@ -95,7 +95,7 @@
 					<div class="col-2-3">
 						<article>
 							<div class="heading">
-								<h2><a href="single.html">This page is under constructions. will be displayed soon.</a></h2>
+								<h2><a href="single.php">This page is under constructions. will be displayed soon.</a></h2>
 							
 							</div>
 							
