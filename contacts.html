@@ -38,6 +38,7 @@
 	
 	<link href='./images/GA.png' rel='icon' type='image/x-icon'/>
 	
+		<script src="js/contacts.js"></script>
 		<script src="js/jquery.js"></script>
 		<script src="js/script.js"></script>
 	
@@ -109,7 +110,7 @@
 		</div>
 				<div class="comment">
 					Your email address will not be published. Required fields are marked *
-					<form>
+					<form action="contacts.html" onsubmit="return validate()">
 						<div><input type="text" name="name" id="name"> Name *</div>
 						<div><input type="email" name="email" id="email"> Email *</div>
 						<div><input type="url" name="website" id="website"> Website</div>
@@ -124,11 +125,11 @@
 				<div class="row block04">
 			<div class="col16">
 				
-					<p> contacts info:</p>
+					<h2> contacts info:</h2>
 				
 			</div>
 		</div>
-					<div class="heading"><h2>Contacts info</h2></div>
+					
 					<div class="content">
 					<table>
 					<tr><td style="font-weight:bold;">Address:</td><td>ABC</td></tr>
@@ -148,25 +149,7 @@
 <!--------------Footer--------------->
 <footer>
 	<div class="zerogrid">
-	<!--	<div class="row wrapper">
-			<section class="col-2-3">
-				<div class="heading">About us</div>
-				<div class="content">
-					Free Basic Html5 Templates created by <a href="http://www.zerotheme.com">Zerotheme</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.
-				</div>
-			</section>
-			<section class="col-1-3">
-				<div class="heading">Bookmark it !</div>
-				<div class="content">
-					<img src="images/icon1.gif" />
-					<img src="images/icon2.gif" />
-					<img src="images/icon3.gif" />
-					<img src="images/icon4.gif" />
-					<img src="images/icon5.gif" />
-				</div>
-			</section>
-		</div> 
-	</div>  -->
+	
 	
 	<div id="copyright">
 	<p>Copyright © 2014 - GA-Tech Solutions</p>
