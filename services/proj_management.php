@@ -61,7 +61,7 @@
 <body>
 <!--------------Header--------------->
 <header> 
-	<div id="logo"><a href="../index.html"><img src="../images/logo.png"/></a></div>
+	<div id="logo"><a href="../index.php"><img src="../images/logo.png"/></a></div>
 	<div id="search">
 		<div class="button-search"></div>
 		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
@@ -72,17 +72,17 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="../about.html">About Us</a></li>
-		<li><a href="../services.html">Services</a>
+		<li><a href="../index.php">Home</a></li>
+		<li><a href="../about.php">About Us</a></li>
+		<li><a href="../services.php">Services</a>
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="../products.html">Products</a></li>
-		<li><a href="../blog.html">Blog</a></li>
-		<li><a href="../contacts.html">Contact</a></li>
+		<li><a href="../products.php">Products</a></li>
+		<li><a href="../blog.php">Blog</a></li>
+		<li><a href="../contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
@@ -91,11 +91,11 @@
 			
 <!--------------Content--------------->
 <section id="content">
-	<div class="zerogrid block">	 
+	<div class="zerogrid block">	
 		<div class="row block04">
 			<div class="col16">
 				<section>
-					<p>ICT Accesories</p>
+					<p>Project Management</p>
 				</section>
 			</div>
 		</div>
@@ -105,36 +105,23 @@
 				<article>
 					
 					<div class="content">
+						<a href="#" style="font-weight:bold; font-size:20px;"> We follow the standards of ICT Project Management:</a></br></br>
+						<p><img src="../images/servz/serv1.jpg" /><h1 style="font-weight:bold; font-size:20px;">1. Requirement Collection:<h1></br>
+						<p>Provision of ICT training in general computer applications, specialized computer applications e.g. Pension System,
+						Financial and Investment Systems, Document Management Systems, Project Management, Data Mining, Data Analysis, 
+						Data Cleaning, ICT Security, Project Management, Computer Aided ICT Audits and Risk Management etc</p></br>
 						
-						<p><img src="../images/servz/serv7.jpg" />
-						<h1 style="font-weight:bold; font-size:20px;">1. Computer Accesories<h1></br>
-						<P>All items are completely customizable. Please contact us for more information or check out the categories 
-						below for a quick online quote for both costs and delivery time. Need another item? Please contact us, we will be 
-						happy to help you.</p>
-						<p>
-						Customizable items just at home at your customer’s desk, mobile or any other item associated with Information and Communication Technology
-						(ICT). Buy our sticky screen cleaners to help your customers keep those mobile or computer screens completely clean, order the USB Web Buttons
-						to get your customers quickly back to your website and let us make some printed mouse pads to never escape your prospects attention.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
+						<h1 style="font-weight:bold; font-size:20px;">2. System analysis and Design<h1>
+						<p>Provision of ICT training in general computer applications, specialized computer applications e.g. Pension System,
+						Financial and Investment Systems, Document Management Systems, Project Management, Data Mining, Data Analysis, 
+						Data Cleaning, ICT Security, Project Management, Computer Aided ICT Audits and Risk Management etc</p></br>
 						
-						<h1 style="font-weight:bold; font-size:20px;">2. Network Accesories<h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p><img src="../images/servz/serv8.jpg" style="float:right;"/>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
+						<h1 style="font-weight:bold; font-size:20px;">2. System Development<h1>
+						<p>Provision of ICT training in general computer applications, specialized computer applications e.g. Pension System,
+						Financial and Investment Systems, Document Management Systems, Project Management, Data Mining, Data Analysis, 
+						Data Cleaning, ICT Security, Project Management, Computer Aided ICT Audits and Risk Management etc</p>
 						
-						<h1 style="font-weight:bold; font-size:20px;">3. Security Devices <h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
+						<img src="../images/servz/cycle.png" style="margin-left:10px;"/>
 						</p>
 					</div>
 				</article>

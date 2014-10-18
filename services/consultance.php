@@ -61,7 +61,7 @@
 <body>
 <!--------------Header--------------->
 <header> 
-	<div id="logo"><a href="../index.html"><img src="../images/logo.png"/></a></div>
+	<div id="logo"><a href="../index.php"><img src="../images/logo.png"/></a></div>
 	<div id="search">
 		<div class="button-search"></div>
 		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
@@ -72,17 +72,17 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="../about.html">About Us</a></li>
-		<li><a href="../services.html">Services</a>
+		<li><a href="../index.php">Home</a></li>
+		<li><a href="../about.php">About Us</a></li>
+		<li><a href="../services.php">Services</a>
 				<ul>
-					<li><a href="#">Short Courses</a></li>
+					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="../products.html">Products</a></li>
-		<li><a href="../blog.html">Blog</a></li>
-		<li><a href="../contacts.html">Contact</a></li>
+		<li><a href="../products.php">Products</a></li>
+		<li><a href="../blog.php">Blog</a></li>
+		<li><a href="../contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
@@ -91,11 +91,11 @@
 			
 <!--------------Content--------------->
 <section id="content">
-	<div class="zerogrid block">	
+	<div class="zerogrid block">	 
 		<div class="row block04">
 			<div class="col16">
 				<section>
-					<p>Video Conference</p>
+					<p>ICT Consultance</p>
 				</section>
 			</div>
 		</div>
@@ -106,11 +106,14 @@
 					
 					<div class="content">
 						
-						<p><img src="../images/servz/serv4.jpg" />Videoconferencing uses audio and video telecommunications to bring people at 
-						different sites together. This can be as simple as a conversation between people in private offices (point-to-point) or 
-						involve several (multipoint) sites in large rooms at multiple locations. Besides the audio and visual transmission of 
-						meeting activities, allied videoconferencing technologies can be used to share documents and display information on 
-						whiteboards.
+						<p><img src="../images/servz/serv2.jpg" />
+						<h1 style="font-weight:bold; font-size:20px;">1. System consultations /Development<h1></br>
+						<P>This involves development of systems as per clients specification e.g. system application development, system customization, web design.</p>
+						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation, Operation and Maintenance, Disposition.</p>
+						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems, Sacco systems, Document Management systems, computer aided risk and audit systems etc</p>
+						
+						<h1 style="font-weight:bold; font-size:20px;">2. ICT Project Implementation <h1></br>
+						</p>
 					</div>
 				</article>
 				
@@ -119,12 +122,12 @@
 		</div>
 	</div>
 </section>
-<!--------------Footer--------------->
+<!--------------Footer-------------
 <footer>
 	
 <div id="copyright">
 	<p>Copyright © 2014 - GA-Tech Solutions</p>
 </div>
 </footer>
-
+-->
 </body></html>

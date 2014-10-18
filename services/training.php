@@ -61,7 +61,7 @@
 <body>
 <!--------------Header--------------->
 <header> 
-	<div id="logo"><a href="../index.html"><img src="../images/logo.png"/></a></div>
+	<div id="logo"><a href="../index.php"><img src="../images/logo.png"/></a></div>
 	<div id="search">
 		<div class="button-search"></div>
 		<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
@@ -72,17 +72,17 @@
 
 <nav>
 	<ul id="nav">
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="../about.html">About Us</a></li>
-		<li><a href="../services.html">Services</a>
+		<li><a href="../index.php">Home</a></li>
+		<li><a href="../about.php">About Us</a></li>
+		<li><a href="../services.php">Services</a>
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 		</li>
-		<li><a href="../products.html">Products</a></li>
-		<li><a href="../blog.html">Blog</a></li>
-		<li><a href="../contacts.html">Contact</a></li>
+		<li><a href="../products.php">Products</a></li>
+		<li><a href="../blog.php">Blog</a></li>
+		<li><a href="../contacts.php">Contact</a></li>
 	</ul>
 </nav>
 
