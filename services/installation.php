@@ -108,7 +108,7 @@
 					
 					<div class="content">
 					
-						<h1 style="font-weight:bold; font-size:20px;">2. Satellite Internet Connectivity (VSAT)  <h1></br>
+						<h1 style="font-weight:bold; font-size:20px;">1. Satellite Internet Connectivity (VSAT)  <h1></br>
 						<P><img src="../images/servz/serv11.jpg" style="float:left; border-right: 2px solid #a49a00;"/></p><P>This is for transmiting narrowband data (point of sale 
 						transactions such as credit card, polling or RFID data; or SCADA), or broadband data (for the provision of satellite 
 						Internet access to remote locations, VoIP or video). VSATs are also used for transportable, on-the-move (utilising phased 
@@ -118,7 +118,7 @@
 						devices such as wireless routers, switch, bandwith manager (cyberoam), </p></br></br></br></br></br>
 						
 						
-						<h1 style="font-weight:bold; font-size:20px;">1. Network installations<h1></br>
+						<h1 style="font-weight:bold; font-size:20px;">2. Network installations<h1></br>
 						<p><img src="../images/servz/serv5.jpg" style="float:left; border-right: 2px solid #a49a00;" /></p><P>GA-Tech provides you with installation and configuration of network for your company and organisation. Lets visit (survey) to your organisation and plan how the network should be according to your demands.
 							This involve connections of all office devices such as computers, printers, scanners, servers etc. </p><img src="../images/servz/serv6.jpg" style="float:right; border-left: 2px solid #a49a00;"/> </p></br>
 						</br></br></br></br>

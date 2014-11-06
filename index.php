@@ -265,7 +265,7 @@
 							<div class="content">
 								<a href="services/training.php"><img src="images/icons/icon4.jpg"/></a>
 								<p>The best technology integrator that provides sales, supply, service and installation Satellite Internet Connectivity .</p>
-								<p class="more"><a class="button" href="services/training.php">Read more</a></p>
+								<p class="more"><a class="button" href="services/installation.php">Read more</a></p>
 							</div>
 						</section>
 					</div>
@@ -289,7 +289,7 @@
 							</div>
 							<div class="content">
 								<a href="services/consultance.php"><img src="images/icons/icon2.jpg"/></a>
-								<p>We work very close to our client negotiating and helping them manage what they need to acomplish. we always keep the timeline</p>
+								<p>We work very close to our client negotiating and helping them manage what they need to acomplish. We always keep the timeline</p>
 								<p class="more"><a class="button" href="services/consultance.php">Read more</a></p>
 							</div>
 						</section>

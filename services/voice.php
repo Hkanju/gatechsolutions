@@ -112,7 +112,7 @@
 						<P>	<img src="../images/servz/serv15.jpg" style="float:left; border-right: 2px solid #a49a00;"/>GA-Tech offeres business models and technical solutions that mirrored the architecture of the legacy telephone
 						network. Second-generation providers, such as Skype, have built closed networks for private user bases,
 						offering the benefit of free calls and convenience while potentially charging for access to other
-						communication networks,.</p></br></br></br>
+						communication networks,.</p></br></br>
 						<p>VoIP systems employ session control and signaling protocols to control the signaling, set-up, and
 						tear-down of calls. They transport audio streams over IP networks using special media delivery protocols
 						that encode voice, audio, video with audio codecs, and video codecs as Digital audio by streaming media. 

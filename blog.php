@@ -108,12 +108,6 @@
 	</div>
 </section>
 <!--------------Footer--------------->
-<footer>
 
-	
-	<div id="copyright">
-	<p>Copyright © 2014 - GA-Tech Solutions</p>
-</div>
-</footer>
 
 </body></html>

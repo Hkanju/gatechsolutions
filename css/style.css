@@ -24,7 +24,7 @@ a:hover {text-decoration: none;}
 a.button, input.button {	cursor: pointer;	color: #ffffff;	line-height: 12px;	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	font-weight: bold;	background: #a49a00;	border:1px solid #ffffff; -webkit-border-radius: 5px;-moz-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;;}
 a.button {	display: inline-block;	text-decoration: none;	padding: 6px 12px 6px 12px;}
 input.button {	margin: 0;	border: 0;	height: 24px;	padding: 0px 12px 0px 12px;}
-a.button:hover, input.button:hover {}
+a.button:hover, input.button:hover {background:#08466D;}
 
 /*-------------header */
 header {width:1000px;margin: 0px auto; height: 130px; position:relative; background: #D0D0D0 url(../images/headerbg.jpg) no-repeat top center;}
@@ -120,7 +120,7 @@ nav ul li:hover a{color:#000;}   */
 #main-content .comment label.required:after { content:'*';color:red;}
 
 .content table {background: #e1e9eb;}
-.content table tr {margin: 3px; padding:3px;}
+.content table tr {margin: 3px; padding:3px; border: 6px solid #e1e9eb;}
  
 
 

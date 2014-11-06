@@ -114,6 +114,7 @@
 				<div class="comment">
 					<label> <a href="#">Your email address will not be published. Required fields are marked </a></label><br />
 					
+					<form action="comments.php" method="POST">
 					<div class="form_style" id="contact_form">
 						 <div class="row">
     <label class="required" for="name">Your name:</label><br />
@@ -130,7 +131,7 @@
 						 </div>
 						<div><input id="submit_btn" type="submit" name="submit" value="Submit" style="background:#a49a00; color:#fff;"></div>
 					
-				</div>
+				</div> </form>
 			</div>
 			</div>
 			<div id="sidebar" class="col-1-3" style="float:right;">
@@ -145,9 +146,9 @@
 					
 					<div class="content">
 					<table>
-					<tr><td style="font-weight:bold;">Address:</td><td>Mbezi Beach</td></tr>
-					<tr><td style="font-weight:bold;"></td><td>Block F 243</td></tr>
-					<tr><td style="font-weight:bold;"></td><td>P.O.Box 12818</td></tr>
+					<tr><td style="font-weight:bold;">Address:</td><td>Mbezi Beach,</td></tr>
+					<tr><td style="font-weight:bold;"></td><td>Block F 243,</td></tr>
+					<tr><td style="font-weight:bold;"></td><td>P.O.Box 12818,</td></tr>
 					<tr><td style="font-weight:bold;"></td><td>Dar es Salaam-Tanzania</td></tr>
 					<tr><td style="font-weight:bold;">Phone:</td><td>+255 713 971787</td></tr>
 					<tr><td style="font-weight:bold;"></td><td>+255 767 409128</td></tr>
@@ -164,59 +165,6 @@
 	</div>
 </section>
 
-<!-- sending email -->
-
-<?php
-if(isset($_POST["submit"]))
-{
-    $to_email       = "myemail@gmail.com"; //Recipient email, Replace with own email here
-    $message  = "";
-    //check if its an ajax request, exit if not
-    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-        
-        $output = json_encode(array( //create JSON data
-            'type'=>'error', 
-            'text' => 'Sorry Request must be Ajax POST'
-        ));
-        die($output); //exit script outputting json data
-    } 
-    
-    //Sanitize input data using PHP filter_var().
-	$user_name		=filter_var($_POST["name"], FILTER_SANITIZE_STRING);
-    $user_email     = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $message        = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
-    
-    //additional php validation
-    if(strlen($user_name)<4){ // If length is less than 4 it will output JSON error.
-        $output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
-        die($output);
-    }
-    if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
-        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
-        die($output);
-    }
-
-     
-  
-    if(strlen($message)<3){ //check emtpy message
-        $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
-        die($output);
-    }
-    
-      $send_mail = mail($to_email, "Comments", $message );
-    
-    if(!$send_mail)
-    {
-        //If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
-        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
-        die($output);
-    }else{
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .' Thank you for your email'));
-        die($output);
-    }
-	}
-
-?>
 
 <!--------------Footer--------------->
 <footer>
