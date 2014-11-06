@@ -75,10 +75,12 @@
 		<li><a href="../index.php">Home</a></li>
 		<li><a href="../about.php">About Us</a></li>
 		<li><a href="../services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="../products.php">Products</a></li>
 		<li><a href="../blog.php">Blog</a></li>
@@ -107,19 +109,30 @@
 					<div class="content">
 						<a href="#" style="font-weight:bold; font-size:20px;"> We follow the standards of ICT Project Management:</a></br></br>
 						<p><img src="../images/servz/serv1.jpg" /><h1 style="font-weight:bold; font-size:20px;">1. Requirement Collection:<h1></br>
-						<p>Provision of ICT training in general computer applications, specialized computer applications e.g. Pension System,
-						Financial and Investment Systems, Document Management Systems, Project Management, Data Mining, Data Analysis, 
-						Data Cleaning, ICT Security, Project Management, Computer Aided ICT Audits and Risk Management etc</p></br>
+						<p>The system is developed base on the requirements of the system itself (to help manage an
+							organization) and technical requirements.</p>
+						<p>Suitable with the general strategies: Small changes in the organization’s development
+							may result in bigger impacts on the information system’s requirements. Therefor, during
+							the system development process, these requirements should be regularly checked for its
+							suitability with the general strategies.</p></br>
 						
 						<h1 style="font-weight:bold; font-size:20px;">2. System analysis and Design<h1>
-						<p>Provision of ICT training in general computer applications, specialized computer applications e.g. Pension System,
-						Financial and Investment Systems, Document Management Systems, Project Management, Data Mining, Data Analysis, 
-						Data Cleaning, ICT Security, Project Management, Computer Aided ICT Audits and Risk Management etc</p></br>
+						<p><img src="../images/servz/serv16.jpg" style="float:right; border-left: 2px solid #a49a00;"/>Here we do the following:-</br>
+							• Identify the operation of the existing system;</br>
+							• Understand what the existing system does;</br>
+							• Understand the needs of the users;</br>
+							• Decide on what the new system should be doing;</br>
+							• Decide on how the new system will function.</p></br>
 						
-						<h1 style="font-weight:bold; font-size:20px;">2. System Development<h1>
-						<p>Provision of ICT training in general computer applications, specialized computer applications e.g. Pension System,
-						Financial and Investment Systems, Document Management Systems, Project Management, Data Mining, Data Analysis, 
-						Data Cleaning, ICT Security, Project Management, Computer Aided ICT Audits and Risk Management etc</p>
+						<h1 style="font-weight:bold; font-size:20px;">2. System Implementation<h1>
+						<p>The implementation phase of the development life cycle is described as those
+activities that begin when the system design has been completed and end
+when the development team have withdrawn from the project and the user
+acceptance has been ‘signed off’. Some practitioners prefer to split this stage of
+the life cycle into two stages: development, which they define as coding, unit testing
+and system testing; and implementation, which they define as the cutover from
+the current to the new system. We have adopted the broader definition of the
+term to cover coding, testing and cutover.</p>
 						
 						<img src="../images/servz/cycle.png" style="margin-left:10px;"/>
 						</p>

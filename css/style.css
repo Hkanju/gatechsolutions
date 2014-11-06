@@ -49,7 +49,7 @@ nav ul li:hover a{color:#000;}   */
 .col04 section p {text-align :justify;}
 .col16 section p{ margin-left:0px;}
 
-.block01 {padding-left: 0px;}
+.block01 {padding-left: 0px; border-bottom: 3px solid #a49a00;}
 .block01 section {text-align:center;}
 .block01 section .heading h2{color:#4F4F4F ;font-size:22px; line-height:25px; letter-spacing:-1px; font-weight:normal; margin:10px 0;}
 .block01 section .content{color:#555555; font-weight:bold;}
@@ -79,6 +79,8 @@ nav ul li:hover a{color:#000;}   */
 .block06 img{width:200px; padding:5px; border:1px solid #ccc;}
 .block06 div{text-align:center;}
 
+#bar .hbar{background:#08466D; width:1003px; display:block; margin-top:5px;}
+#bar .hbar h1 {font-size:20px; font-style:bold; text-align:center; color:#fff;}
 .main-content{}
 .main-content article{margin: 20px 0;overflow:hidden; position:relative}
 .main-content article .heading{margin-bottom: 10px; padding:10px 0px;border-bottom:1px solid #a49a00; border-top:1px solid #a49a00;}
@@ -116,7 +118,9 @@ nav ul li:hover a{color:#000;}   */
 	background: linear-gradient(top, #ddd, #aaa);	border: 2px solid #999;}
 	
 #main-content .comment label.required:after { content:'*';color:red;}
-  
+
+.content table {background: #e1e9eb;}
+.content table tr {margin: 3px; padding:3px;}
  
 
 

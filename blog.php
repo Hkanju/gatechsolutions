@@ -75,10 +75,7 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">About Us</a></li>
 		<li><a href="services.php">Services</a>
-				<ul>
-					<li><a href="#">Short Courses</a></li>
-					<li><a href="#">Support</a></li>
-				</ul>
+				
 		</li>
 		<li><a href="products.php">Products</a></li>
 		<li><a href="blog.php">Blog</a></li>

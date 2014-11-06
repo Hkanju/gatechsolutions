@@ -75,10 +75,12 @@
 		<li><a href="../index.php">Home</a></li>
 		<li><a href="../about.php">About Us</a></li>
 		<li><a href="../services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="../products.php">Products</a></li>
 		<li><a href="../blog.php">Blog</a></li>
@@ -95,7 +97,7 @@
 		<div class="row block04">
 			<div class="col16">
 				<section>
-					<p>ICT Consultance</p>
+					<p>Installations/Configurations</p>
 				</section>
 			</div>
 		</div>
@@ -105,34 +107,31 @@
 				<article>
 					
 					<div class="content">
+					
+						<h1 style="font-weight:bold; font-size:20px;">2. Satellite Internet Connectivity (VSAT)  <h1></br>
+						<P><img src="../images/servz/serv11.jpg" style="float:left; border-right: 2px solid #a49a00;"/></p><P>This is for transmiting narrowband data (point of sale 
+						transactions such as credit card, polling or RFID data; or SCADA), or broadband data (for the provision of satellite 
+						Internet access to remote locations, VoIP or video). VSATs are also used for transportable, on-the-move (utilising phased 
+						array antennas) or mobile maritime communications.</p>
+						<p>This is for the remote places such as mining areas, safari camps in the advanced technology of Ka, Ku & C-Band, 
+						Wimax, Wavion, Point to point link installation, networking for both LAN and WAN, VOIP and custom entire internet 
+						devices such as wireless routers, switch, bandwith manager (cyberoam), </p></br></br></br></br></br>
 						
-						<p><img src="../images/servz/serv5.jpg" />
+						
 						<h1 style="font-weight:bold; font-size:20px;">1. Network installations<h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
+						<p><img src="../images/servz/serv5.jpg" style="float:left; border-right: 2px solid #a49a00;" /></p><P>GA-Tech provides you with installation and configuration of network for your company and organisation. Lets visit (survey) to your organisation and plan how the network should be according to your demands.
+							This involve connections of all office devices such as computers, printers, scanners, servers etc. </p><img src="../images/servz/serv6.jpg" style="float:right; border-left: 2px solid #a49a00;"/> </p></br>
+						</br></br></br></br>
 						
-						<h1 style="font-weight:bold; font-size:20px;">2. Electronic Installations <h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p><img src="../images/servz/serv6.jpg" style="float:right;"/>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
-						
+												
 						<h1 style="font-weight:bold; font-size:20px;">3. CCTV Camera Installations <h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
+						<P><img src="../images/servz/serv12.jpg" style="float:left; border-right: 2px solid #a49a00;"/></p><P>GA provides you both advanced and intermediate 
+						(Electric & Electronics) technology which combines sophisticated ideas with cheap and readily available materials,
+						especially for use in developing countries in Security Surveillance, </p>
+						<p>, we are Installing, servicing and repairing of Electric fence, Detor, CCTV cameras, Biometric Devices,
+						Door Alarms, Motion Detector, PBx, Intruders voice and data networks and other any systems which the company
+						may think fit necessary or incidental to this business which supports remote access via BYOD(Bring your own 
+						device) etc.</p></br>
 						</p>
 					</div>
 				</article>

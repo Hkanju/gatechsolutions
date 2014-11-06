@@ -75,10 +75,12 @@
 		<li><a href="../index.php">Home</a></li>
 		<li><a href="../about.php">About Us</a></li>
 		<li><a href="../services.php">Services</a>
+				<!--
 				<ul>
-					<li><a href="#">Short Courses</a></li>
+					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="../products.php">Products</a></li>
 		<li><a href="../blog.php">Blog</a></li>
@@ -106,7 +108,7 @@
 					
 					<div class="content">
 						
-						<p><img src="../images/servz/serv4.jpg" />Videoconferencing uses audio and video telecommunications to bring people at 
+						<p><img src="../images/servz/serv4.jpg" style="float:left; border-right: 2px solid #a49a00;"/>Videoconferencing uses audio and video telecommunications to bring people at 
 						different sites together. This can be as simple as a conversation between people in private offices (point-to-point) or 
 						involve several (multipoint) sites in large rooms at multiple locations. Besides the audio and visual transmission of 
 						meeting activities, allied videoconferencing technologies can be used to share documents and display information on 
@@ -120,11 +122,13 @@
 	</div>
 </section>
 <!--------------Footer--------------->
+<!--
 <footer>
 	
 <div id="copyright">
 	<p>Copyright © 2014 - GA-Tech Solutions</p>
 </div>
 </footer>
+-->
 
 </body></html>

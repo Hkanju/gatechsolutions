@@ -75,10 +75,12 @@
 		<li><a href="../index.php">Home</a></li>
 		<li><a href="../about.php">About Us</a></li>
 		<li><a href="../services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="../products.php">Products</a></li>
 		<li><a href="../blog.php">Blog</a></li>
@@ -106,8 +108,8 @@
 					
 					<div class="content">
 						
-						<p><img src="../images/servz/serv2.jpg" />
-						<h1 style="font-weight:bold; font-size:20px;">1. System consultations /Development<h1></br>
+						<p><img src="../images/servz/serv2.jpg" style="float:left; border-right: 2px solid #a49a00;"/>
+						<h1 style="font-weight:bold; font-size:20px;">1. System consultations <h1></br>
 						<P>This involves development of systems as per clients specification e.g. system application development, system customization, web design.</p>
 						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation, Operation and Maintenance, Disposition.</p>
 						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems, Sacco systems, Document Management systems, computer aided risk and audit systems etc</p>

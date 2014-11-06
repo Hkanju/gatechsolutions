@@ -79,16 +79,20 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">About Us</a></li>
 		<li><a href="services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="products.php">Products</a></li>
 		<li><a href="blog.php">Blog</a></li>
 		<li><a href="contacts.php">Contact</a></li>
 	</ul>
 </nav>
+
+
 
 <!--------------Slideshow--------------->
 <section class="featured">
@@ -187,32 +191,32 @@
     <!-- You can move inline styles to css file or css block. -->
         <div id="rslides_container" style="position: relative;  width: 1000px; height: 550px; margin-bottom:2px;" >
             <!-- Slides Container -->
-            <div u="slides" style="cursor: move; position: realative;  width: 1465px; height: 550px;
+            <div u="slides" style="cursor: move; position: relative;  width: 1460px; height: 550px;
                 overflow: hidden;">
                 <div><img u="image" src="images/slides/slide1.png" />
                     <div u="caption" t="CLIP|L" style="position:absolute;left:100px;top:80px;width:110px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Lets</div>
                     <div u="caption" t="CLIP|L" style="position:absolute;left:230px;top:80px;width:120px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Watch,</div>
-                    <div u="caption" t="CLIP|L" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#08466C;line-height:40px;">=>Talk</div>
+                    <div u="caption" t="CLIP|L" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#08466C;line-height:40px;">=>Talk!</div>
                     <div class="flex-caption">
                     <h4>Video Conference</h4> </br>
-					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p> </br>
+					<p>We provide video conference configurations for your company and organisation. Let you easy the communication. </p> </br>
 					<p class="more"><a class="button" href="services/video.php">Read more</a></p>
                 </div>
                 </div>
                 <div><img u="image" src="images/slides/slide2.png" />
-                    <div u="caption" t="ZMF|10" style="position:absolute;left:100px;top:80px;width:110px;height:40px;font-size:36px;color:#fff;line-height:40px;">Managing</div>
-                    <div u="caption" t="ZMF|10" style="position:absolute;left:230px;top:80px;width:120px;height:40px;font-size:36px;color:#fff;line-height:40px;">&nbsp &nbsp &nbsp IT</div>
-                    <div u="caption" t="ZMF|10" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#fff;line-height:40px;">Efficiently!</div>
+                    <div u="caption" t="ZMF|10" style="position:absolute;left:100px;top:80px;width:120px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Let</div>
+                    <div u="caption" t="ZMF|10" style="position:absolute;left:230px;top:80px;width:120px;height:40px;font-size:36px;color:#08466C;line-height:40px;">you</div>
+                    <div u="caption" t="ZMF|10" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#08466C;line-height:40px;">connect!</div>
 					<div class="flex-caption">
-                    <h4>Project Management</h4> </br>
-					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  </br>
-					<p class="more"><a class="button" href="services/proj_management.php">Read more</a></p></br>
+                    <h4>Internet Connectivity (VSAT) </h4> </br>
+					<p>We gives you the complete technology integrator that provides sales, supply, service and installation . </p>  </br>
+					<p class="more"><a class="button" href="services/installation.php">Read more</a></p></br>
                 </div>
 				</div>
                 <div><img u="image" src="images/slides/slide3.png" />
                     <div u="caption" t="RTT|10" style="position:absolute;left:100px;top:80px;width:110px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Its</div>
                     <div u="caption" t="RTT|10" style="position:absolute;left:230px;top:80px;width:120px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Digital</div>
-                    <div u="caption" t="RTT|10" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#fff;line-height:40px;">Talks!</div>
+                    <div u="caption" t="RTT|10" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Talks!</div>
 					<div class="flex-caption">
                     <h4>VOIP</h4> </br>
 					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  </br>
@@ -225,7 +229,9 @@
                     <div u="caption" t="FLTTR|R" style="position:absolute;left:380px;top:80px;width:130px;height:40px;font-size:36px;color:#08466C;line-height:40px;">Communication!</div>
 					<div class="flex-caption">
                     <h4>IP PBX</h4> </br>
-					<p>The information about this slide will be put after the developer has finished the whole design. Please keep on waiting.. </p>  </br>
+					<p>PBx, Intruders voice and data networks and other any systems which the company may think fit necessary or incidental to this business which supports remote access via BYOD(Bring your own device) etc.
+
+ </p>  </br>
 					<p class="more"><a class="button" href="#">Read more</a></p></br>
                 </div>
 				</div>
@@ -238,15 +244,32 @@
     </div>
 
 	</div>
+	<div id="bar">
+	<div class="hbar">&nbsp</div>
+	</div>
 </section>
 
 			
 <!--------------Content--------------->
 <section id="content">
 	<div class="zerogrid">
+	
 		<div class="row">
 			<div class="main-content">
 				<div class="row">
+				<div class="col-1-3">
+						<section>
+							<div class="heading">
+								<h2><a href="#">Satellite Int Connectivity (VSAT).</a></h2>
+							</div>
+							<div class="content">
+								<a href="services/training.php"><img src="images/icons/icon4.jpg"/></a>
+								<p>The best technology integrator that provides sales, supply, service and installation Satellite Internet Connectivity .</p>
+								<p class="more"><a class="button" href="services/training.php">Read more</a></p>
+							</div>
+						</section>
+					</div>
+				
 					<div class="col-1-3">
 						<section>
 							<div class="heading">
@@ -254,7 +277,7 @@
 							</div>
 							<div class="content">
 								<a href="services/proj_management.php"><img src="images/icons/icon1.jpg"/></a>
-								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting..</p>
+								<p>We provide the efficient project management the best that our clients always apreciate. </p></br>
 								<p class="more"><a class="button" href="services/proj_management.php">Read more</a></p>
 							</div>
 						</section>
@@ -266,23 +289,12 @@
 							</div>
 							<div class="content">
 								<a href="services/consultance.php"><img src="images/icons/icon2.jpg"/></a>
-								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
+								<p>We work very close to our client negotiating and helping them manage what they need to acomplish. we always keep the timeline</p>
 								<p class="more"><a class="button" href="services/consultance.php">Read more</a></p>
 							</div>
 						</section>
 					</div>
-					<div class="col-1-3">
-						<section>
-							<div class="heading">
-								<h2><a href="#">ICT Trainings</a></h2>
-							</div>
-							<div class="content">
-								<a href="services/training.php"><img src="images/icons/icon3.jpg"/></a>
-								<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-								<p class="more"><a class="button" href="services/training.php">Read more</a></p>
-							</div>
-						</section>
-					</div>
+					
 				</div>
 				
 				<div class="row">
@@ -299,7 +311,7 @@
 						term) institute of technology, consultancy, research, CCTV camera
 						installation, voice mail, WEBSITE, IT accessories and electronics
 						installation fencing, alarm industries network, hardware solution,
-						biometric</p>
+						biometric.</p><p class="more"><a class="button" href="about.php">Read more</a></p>
 							</div>
 						</article>
 					</div>

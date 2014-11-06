@@ -1,6 +1,6 @@
 /*! http://responsiveslides.com v1.32 by @viljamis */
 
-.rslides {
+.rs {
   position: relative;
   list-style: none;
   overflow: hidden;
@@ -38,6 +38,7 @@
 .rslides_container {
   
   position: relative;
+
   }
 
 .centered-btns_nav {

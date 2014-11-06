@@ -13,7 +13,7 @@
 /*--------------Base 960 Grid*/
 
     .zerogrid                                  { position: relative; width: 1000px; margin: 0 auto; padding: 0;}
-    .zerogrid .row                             { margin-bottom: 10px;}
+    .zerogrid .row                             { margin-bottom: 10px; margin-left:0px;  }
 	
 	.zerogrid .offleft					   	   { margin-left: 0px!important;}
 	.zerogrid .offright					       { margin-right: 0px!important;}
@@ -199,6 +199,8 @@
         .zerogrid .col-1-3,
         .zerogrid .col-2-3 { width: 420px; }
 		}
+		
+	
 	
 
 /* #Clearing

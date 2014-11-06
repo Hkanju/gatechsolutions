@@ -75,10 +75,12 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">About Us</a></li>
 		<li><a href="services.php">Services</a>
+		<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="products.php">Products</a></li>
 		<li><a href="blog.php">Blog</a></li>
@@ -99,18 +101,49 @@
 				</section>
 			</div>
 		</div>
-			<div class="col04" >
+		<div class="col04">
 				<section>
 					<div class="heading">
-						<img src="images/servz/consultance.png"/>
-						<h2>ICT Consultance</h2>
+						<img src="images/servz/install.png"/>
+						<h2>Installations</h2>
 					</div>
 					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="services/consultance.php">Read more</a></p>
+						<p>
+The best technology integrator that provides sales, supply, service and installation Satellite Internet Connectivity ..</p>
+						<p class="more"><a class="button" href="services/installation.php">Read more</a></p>
 					</div>
 				</section>
 			</div>
+			
+			<div class="col04" style="border:3px solid:#a49a00;">
+				<section>
+					<div class="heading">
+						<img src="images/servz/cctv.png"/>
+						<h2>Security Surveillance</h2>
+					</div>
+					<div class="content">
+						<p>GA provides you both advanced and intermediate (Electric & Electronics) technology which combines 
+						sophisticated ideas with cheap and readily available materials, especially for use in developing countries in 
+						Security Surveillance</p>
+						<p class="more"><a class="button" href="services/camera.php">Read more</a></p>
+					</div>
+				</section>
+			</div>
+			
+			<div class="col04">
+				<section>
+					<div class="heading">
+						<img src="images/servz/serv10.png"/>
+						<h2>GPS, GPRS Tracking system </h2>
+					</div>
+					<div class="content">
+						<p>We carry on supporting our clients with Highly Advanced Embedded Firmware with massive range of features of GPS, GPRS Tracking system .</p>
+						<p class="more"><a class="button" href="services/installation.php">Read more</a></p>
+					</div>
+				</section>
+			</div>
+			
+			
 			<div class="col04" >
 				<section>
 					<div class="heading">
@@ -118,8 +151,26 @@
 						<h2>Project Management</h2>
 					</div>
 					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
+						<p>We provide the efficient project management the best that our clients always apreciate..</p>
 						<p class="more"><a class="button" href="services/proj_management.php">Read more</a></p>
+					</div>
+				</section>
+			</div>
+			
+			
+		</div>
+		
+		<div class="row block01">
+			<div class="col04">
+				<section>
+					<div class="heading">
+						<img src="images/servz/accessories1.jpg"/>
+						<h2>ICT Accesories</h2>
+					</div>
+					<div class="content">
+						<p>Furthermore GA Techsolution works as General Supplies Services for the Electrical Goods and Equipment’s, Mining Equipment’s, 
+						Hardware materials like bars, structural angles, Industrial Parts, .</p>
+						<p class="more"><a class="button" href="services/accesories.php">Read more</a></p>
 					</div>
 				</section>
 			</div>
@@ -130,47 +181,8 @@
 						<h2>Video Conference</h2>
 					</div>
 					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
+						<p>We provide video conference configurations for your company and organisation. Let you easy the communication..</p>
 						<p class="more"><a class="button" href="services/video.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/servz/training.png"/>
-						<h2>ICT Training</h2>
-					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="services/training.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-		</div>
-		
-		<div class="row block01">
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/servz/accessories.png"/>
-						<h2>ICT Accesories</h2>
-					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="services/accesories.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-			<div class="col04" style="border:3px solid:#a49a00;">
-				<section>
-					<div class="heading">
-						<img src="images/servz/cctv.png"/>
-						<h2>CCTV Cameras</h2>
-					</div>
-					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="services/camera.php">Read more</a></p>
 					</div>
 				</section>
 			</div>
@@ -181,20 +193,21 @@
 						<h2>VOIP</h2>
 					</div>
 					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
+						<p>Early providers of voice-over-IP services offered business models and technical solutions that mirrored the 
+						architecture of the legacy telephone network. .</p>
 						<p class="more"><a class="button" href="services/voice.php">Read more</a></p>
 					</div>
 				</section>
 			</div>
-			<div class="col04">
+			<div class="col04" >
 				<section>
 					<div class="heading">
-						<img src="images/servz/install.png"/>
-						<h2>Installations</h2>
+						<img src="images/servz/consultance.png"/>
+						<h2>ICT Consultance</h2>
 					</div>
 					<div class="content">
-						<p>This is one of our services information about it will be put after the developer has finished the whole design. Please keep on waiting.</p>
-						<p class="more"><a class="button" href="services/installation.php">Read more</a></p>
+						<p>We work very close to our client negotiating and helping them manage what they need to acomplish. we always keep the timeline.</p>
+						<p class="more"><a class="button" href="services/consultance.php">Read more</a></p>
 					</div>
 				</section>
 			</div>

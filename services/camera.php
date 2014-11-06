@@ -75,10 +75,12 @@
 		<li><a href="../index.php">Home</a></li>
 		<li><a href="../about.php">About Us</a></li>
 		<li><a href="../services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="../products.php">Products</a></li>
 		<li><a href="../blog.php">Blog</a></li>
@@ -95,7 +97,7 @@
 		<div class="row block04">
 			<div class="col16">
 				<section>
-					<p>ICT Accesories</p>
+					<p>Security Surveillance</p>
 				</section>
 			</div>
 		</div>
@@ -106,35 +108,15 @@
 					
 					<div class="content">
 						
-						<p><img src="../images/servz/serv7.jpg" />
-						<h1 style="font-weight:bold; font-size:20px;">1. Computer Accesories<h1></br>
-						<P>All items are completely customizable. Please contact us for more information or check out the categories 
-						below for a quick online quote for both costs and delivery time. Need another item? Please contact us, we will be 
-						happy to help you.</p>
 						<p>
-						Customizable items just at home at your customer’s desk, mobile or any other item associated with Information and Communication Technology
-						(ICT). Buy our sticky screen cleaners to help your customers keep those mobile or computer screens completely clean, order the USB Web Buttons
-						to get your customers quickly back to your website and let us make some printed mouse pads to never escape your prospects attention.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
+						<h1 style="font-weight:bold; font-size:20px;"><h1></br>
+						<P>GA provides you both advanced and intermediate (Electric & Electronics) technology which combines
+						sophisticated ideas with cheap and readily available materials, especially for use in developing countries 
+						in Security Surveillance, we are Installing, servicing and repairing of Electric fence, Detor, <img src="../images/servz/serv13.jpg" style="float:right;"/>CCTV cameras,
+						Biometric Devices, Door Alarms, Motion Detector, PBx, Intruders voice and data networks and other any systems
+						which the company may think fit necessary or incidental to this business which supports remote access via 
+						BYOD(Bring your own device) etc.</p>
 						
-						<h1 style="font-weight:bold; font-size:20px;">2. Network Accesories<h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p><img src="../images/servz/serv8.jpg" style="float:right;"/>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
-						
-						<h1 style="font-weight:bold; font-size:20px;">3. Security Devices <h1></br>
-						<P>This involves development of systems as per clients specification e.g. system application development,
-						system customization, web design.</p>
-						<p>Depending on client specification, such work may cover the whole of system life cycle i.e.  Initiation, 
-						Concept Development, Planning, Requirement Analysis, Design, Development, Integration and Test, Implementation,
-						Operation and Maintenance, Disposition.</p>
-						<p>Areas which may need development/customization and implementation are: - Pension systems, Financial Systems,
-						Sacco systems, Document Management systems, computer aided risk and audit systems etc</p></br>
 						</p>
 					</div>
 				</article>

@@ -75,10 +75,12 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">About Us</a></li>
 		<li><a href="services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="products.php">Products</a></li>
 		<li><a href="blog.php">Blog</a></li>
@@ -91,113 +93,73 @@
 <section id="content">
 	<div class="zerogrid block">		
 		<div class="row block01">
-		<div class="row block04">
+		<div class="row block04" >
 			<div class="col16">
 				<section>
-					<!--<p><a href="index.php">Home</a> >> contacts</p> -->
+					<p class="convey"><script src="js/products.js"> </script></p>
 				</section>
 			</div>
 		</div>
 			<div class="col04">
 				<section>
 					<div class="heading">
-						<img src="images/consultance.png"/>
-						<h2>ICT Consultance</h2>
+						<img src="images/products/pro1.png"/>
+						<h2>CCTV accesories</h2>
 					</div>
 					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
+						<p>Supply of all CCTV Hardware tools, Software systems and Peripherals. Network Products, Integrated 
+						Solutions systems to meet the computing needs of today world of technology. Office and Seminars 
+						Equipment’s</p>
+						<p class="more"><a class="button" href="#">Read more</a></p>
 					</div>
 				</section>
 			</div>
 			<div class="col04" style="border:3px solid:#a49a00;">
 				<section>
 					<div class="heading">
-						<img src="images/projects.png"/>
-						<h2>Project Management</h2>
+						<img src="images/products/pro2.png"/>
+						<h2>Video accesories</h2>
 					</div>
 					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
+						<p>Supply of all Video accesories, Software systems and Peripherals. Network Products, Integrated 
+						Solutions systems to meet the computing needs of today world of technology. Office and Seminars 
+						Equipment’s</p>
+						<p class="more"><a class="button" href="#">Read more</a></p>
 					</div>
 				</section>
 			</div>
 			<div class="col04">
 				<section>
 					<div class="heading">
-						<img src="images/video.png"/>
-						<h2>Video Conference</h2>
+						<img src="images/products/pro3.png"/>
+						<h2>Network Accesories</h2>
 					</div>
 					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
+						<p>Supply of all ICT& IT Hardware, Software systems and Peripherals. Network Products, Integrated 
+						Solutions systems to meet the computing needs of today world of technology. Office and Seminars 
+						Equipment’s</p>
+						<p class="more"><a class="button" href="#">Read more</a></p>
 					</div>
 				</section>
 			</div>
 			<div class="col04">
 				<section>
 					<div class="heading">
-						<img src="images/training.png"/>
-						<h2>ICT Training</h2>
+						<img src="images/products/pro4.png"/>
+						<h2>Surveillance Tools</h2>
 					</div>
 					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
+					<p>Supply of all Surveillance Hardwares, Software systems and Peripherals. Network Products, Integrated 
+						Solutions systems to meet the computing needs of today world of technology. Office and Seminars 
+						Equipment’s</p>
+						
+						<p class="more"><a class="button" href="#">Read more</a></p>
 					</div>
 				</section>
 			</div>
 		</div>
 		
-		<div class="row block01">
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/consultance.png"/>
-						<h2>ICT Consultance</h2>
-					</div>
-					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-			<div class="col04" style="border:3px solid:#a49a00;">
-				<section>
-					<div class="heading">
-						<img src="images/projects.png"/>
-						<h2>Project Management</h2>
-					</div>
-					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/video.png"/>
-						<h2>Video Conference</h2>
-					</div>
-					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-			<div class="col04">
-				<section>
-					<div class="heading">
-						<img src="images/training.png"/>
-						<h2>ICT Training</h2>
-					</div>
-					<div class="content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-						<p class="more"><a class="button" href="single.php">Read more</a></p>
-					</div>
-				</section>
-			</div>
-		</div>
+		
 		
 	
 		
@@ -206,24 +168,7 @@
 <!--------------Footer--------------->
 <footer>
 	<div class="zerogrid">
-	<!--	<div class="row wrapper">
-			<section class="col-2-3">
-				<div class="heading">About us</div>
-				<div class="content">
-					Free Basic Html5 Templates created by <a href="http://www.zerotheme.com">Zerotheme</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.
-				</div>
-			</section>
-			<section class="col-1-3">
-				<div class="heading">Bookmark it !</div>
-				<div class="content">
-					<img src="images/icon1.gif" />
-					<img src="images/icon2.gif" />
-					<img src="images/icon3.gif" />
-					<img src="images/icon4.gif" />
-					<img src="images/icon5.gif" />
-				</div>
-			</section>
-		</div> -->
+	
 	</div>
 	
 	<div id="copyright">

@@ -43,6 +43,7 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/responsiveslides.js"></script>
+	
 	<script>
     $(function () {
       $("#slider").responsiveSlides({
@@ -55,7 +56,19 @@
       });
     });
 	
-  </script>
+</script>
+
+<script src="js/jquery-1.3.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(".flip").click(function(){
+    $(".read").slideToggle("slow");
+  });
+});
+
+
+</script>
+</script>
     
 </head>
 <body>
@@ -75,10 +88,12 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">About Us</a></li>
 		<li><a href="services.php">Services</a>
+				<!--
 				<ul>
 					<li><a href="#">Courses</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
+				-->
 		</li>
 		<li><a href="products.php">Products</a></li>
 		<li><a href="blog.php">Blog</a></li>
@@ -106,24 +121,47 @@
 								<h2><a href="#">Who we are?.</a></h2>
 							</div>
 							<div class="content">
-								<p>GA TECHSOLUTIONS LIMITED is an ICT Company that deals with business of information technology project
-                        management, system analysis and design, training service such as
-                        virtual training, professional course, basic course (short and long
-						term) institute of technology, consultancy, research, CCTV camera
-						installation, voice mail, WEBSITE, IT accessories and electronics
-						installation fencing, alarm industries network, hardware solution,
-						biometric.</p>
+								<p>GA TECH SOLUTIONS LIMITED is a complete technology integrator that was established since one year 
+								ago by the former executives and professional expertise from TanTech Computer Lab, Altech Ltd and
+								Omni Computers to providers general services in ICT and entire word in IT, Electric and Electronic 
+								equipment and devices in installation, sales, service, maintenance and repairing of custom software 
+								and hardware’s. GA Tech Solution Ltd is designed to enhance, combine and add additional benefits to 
+								local and regional companies.</p>
+								
+								<p>GA Tech Solution Ltd was established to provide its customers with access to the finest Tanzania 
+								goods and services. Our staff has extensive experience with Tanzania and some other areas out of East 
+								Africa borders, our service and products pride us on our commitment to quality, reliability, and speed. 
+								Take a moment to look through our Company Profile to see if we can be of help to you.</p>
 							</div>
 							</article>
 						<article>
 					<div class="heading">
-						<h2><a href="single.php">Why Us?</a></h2>
+						<h2><a href="#">Why Us?</a></h2>
 						</div>
 
 					<div class="content">
-						<p>GA TECHSOLUTIONS LIMITED embrace ICT because helps us save time and money and this is essentially why I wanted to forge in to the ICT field. We created one of the largest sites of its kind two months and made a platform that caters to anyone in Sri Lanka! This we could not do under a traditional retail model, not with the kind of capital we were investing</p>
-						<p>ICT helps people communicate faster and cheaper than ever before. This also means that people now have more information at their fingertips than in any time of human history. Just the other day I heard that an average person has more access to information than the President of the United States did back in 1995, and that’s only 13 years ago!.</p>
+						<p>With GA Techsolution Ltd you’re benefited by using advanced, latest, genuine software’s and hardware’s 
+						which enhance security, reliability and great achievement for your business,</p>
+						<p>In today’s business world, more than ever, it is essential to have technology systems that are connected
+						to one another and capable of sharing data with other technology whether they are down the hall or around the
+						With the expertise of GA Tech Solution Ltd, they will be able to meet those needs. We are a company that
+						believes in the customer. Few companies offer a mix of ICT,IT, Electric and Electronic talented and expertise
+						that GA Tech Solution Ltd does. There are several companies that offer certain portions of this mix, but none
+						of them offer the total package. </p>
 						
+						
+						<div class="read">
+						<p >Our customers can discuss all their current  needs from hardware and software into the new
+						technology that GA Tech Solution Ltd can provide as ONE STOP TECHNOLOGY PROVIDER because we are working with 
+						the major branded companies as detailed above and on per client request.</p>
+						<p >The aim of GA Tech Solution Ltd is to offer consulting services on ICT, Electric and Electronics’
+						into entire IT world access to area businesses. We sit down with our customers and get to know them and their 
+						business and find out how technology is used in their organization. We will offer a detailed analysis of their
+						existing systems find out what works for them and what does not, and offer them solutions if needed so that
+						they can get the highest return on their technology investment dollars.</p>
+						
+						</div>
+						<p class="flip" style="font-weight:bold; color:blue;"><<>></p>
 					</div>
 				</article>	
 							
@@ -141,7 +179,15 @@
 					<div class="content">
 						<div class="post">
 							<img src="images/thumb2.png"/>
-							<h4><p>hello GA Team we always apreciate your products guys!.....cool!</p></h4>
+							<h4><p>hello GA Team we always apreciate your servises guys!.....good!</p></h4>
+							
+						</div>
+						
+					</div>
+					<div class="content">
+						<div class="post">
+							<img src="images/thumb1.png"/>
+							<h4><p>Team leader, The work was real conformable. Thank you very much guyz!</p></h4>
 							
 						</div>
 						
