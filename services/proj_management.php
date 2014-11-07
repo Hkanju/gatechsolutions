@@ -124,7 +124,7 @@
 							• Decide on what the new system should be doing;</br>
 							• Decide on how the new system will function.</p></br>
 						
-						<h1 style="font-weight:bold; font-size:20px;">2. System Implementation<h1>
+						<h1 style="font-weight:bold; font-size:20px;">3. System Implementation<h1>
 						<p>The implementation phase of the development life cycle is described as those
 activities that begin when the system design has been completed and end
 when the development team have withdrawn from the project and the user
