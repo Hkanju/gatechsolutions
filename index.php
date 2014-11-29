@@ -263,7 +263,7 @@
 								<h2><a href="#">Satellite Int Connectivity (VSAT).</a></h2>
 							</div>
 							<div class="content">
-								<a href="services/training.php"><img src="images/icons/icon4.jpg"/></a>
+								<a href="services/installation.php"><img src="images/icons/icon4.jpg"/></a>
 								<p>The best technology integrator that provides sales, supply, service and installation Satellite Internet Connectivity .</p>
 								<p class="more"><a class="button" href="services/installation.php">Read more</a></p>
 							</div>

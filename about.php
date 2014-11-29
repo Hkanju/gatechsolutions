@@ -171,7 +171,7 @@ $(".flip").click(function(){
 					<div class="heading"><h2>Skills&Experience</h2></div>
 					<div class="content">
 						<p>GA TECHSOLUTIONS LIMITED has Profesional experties on several ICT Services qualifying 
-						from different colleges and universities all over the world. you can just go through our products and see what the company real do!</p>
+						from different colleges and universities all over the world. you can just go through our products and see what the company real does.</p>
 					</div>
 				</section>
 						<section>

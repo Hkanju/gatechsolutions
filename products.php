@@ -135,7 +135,7 @@
 						<h2>Network Accesories</h2>
 					</div>
 					<div class="content">
-						<p>Supply of all ICT& IT Hardware, Software systems and Peripherals. Network Products, Integrated 
+						<p>Supply of all ICT Hardware, Software systems and Peripherals. Network Products, Integrated 
 						Solutions systems to meet the computing needs of today world of technology. Office and Seminars 
 						Equipment’s</p>
 						<p class="more"><a class="button" href="#">Read more</a></p>
